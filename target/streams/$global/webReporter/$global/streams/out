@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/ryanraitz/Desktop/play-samples-play-scala-websocket-example-copy/app/assets/javascripts/index.coffee:56:1: unexpected indentation[0m
+[0m[[0m[31merror[0m] [0m[0m    data = getPricesFromArray(plot.getData()[0].data)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

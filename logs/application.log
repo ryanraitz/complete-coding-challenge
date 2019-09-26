@@ -1,0 +1,968 @@
+2019-09-26 12:35:41,002 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2019-09-26 12:35:41,004 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-3 - logger log1-Slf4jLogger started
+2019-09-26 12:35:41,006 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-3 - Default Loggers started
+2019-09-26 12:35:41,467 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-2 - Using the following cache configuration for assets:
+	 enableCaching = false
+	 enableCacheControl = false
+	 defaultCacheControl = public, max-age=3600
+	 aggressiveCacheControl = public, max-age=31536000, immutable
+	 configuredCacheControl:
+
+
+2019-09-26 12:35:41,492 [WARN] from play.filters.headers.SecurityHeadersConfig in play-dev-mode-akka.actor.default-dispatcher-2 - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2019-09-26 12:35:41,497 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-09-26 12:35:41,506 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev) (no global state)
+2019-09-26 12:35:41,858 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-4 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-09-26 12:35:41,860 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-4 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-09-26 12:35:42,086 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-2 - New connection accepted
+2019-09-26 12:35:42,090 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-6 - New connection accepted
+2019-09-26 12:35:42,095 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-6 - New connection accepted
+2019-09-26 12:35:42,103 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-3 - New connection accepted
+2019-09-26 12:35:42,114 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-2 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-09-26 12:35:42,114 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-3 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-09-26 12:35:42,114 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-4 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-09-26 12:35:42,114 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-5 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-09-26 12:35:42,114 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-2 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-09-26 12:35:42,114 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-4 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-09-26 12:35:42,114 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-3 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-09-26 12:35:42,115 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-5 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-09-26 12:35:42,115 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-09-26 12:35:42,115 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-09-26 12:35:42,339 [DEBUG] from akka.stream.impl.io.InputStreamPublisher in play-dev-mode-akka.actor.default-dispatcher-7 - No more bytes available to read (got `-1` from `read`)
+2019-09-26 12:35:42,339 [DEBUG] from akka.stream.impl.io.InputStreamPublisher in play-dev-mode-akka.actor.default-dispatcher-7 - No more bytes available to read (got `-1` from `read`)
+2019-09-26 12:35:42,340 [DEBUG] from akka.stream.impl.io.InputStreamPublisher in play-dev-mode-akka.actor.default-dispatcher-7 - No more bytes available to read (got `-1` from `read`)
+2019-09-26 12:35:42,341 [DEBUG] from akka.stream.impl.io.InputStreamPublisher in play-dev-mode-akka.actor.default-dispatcher-2 - No more bytes available to read (got `-1` from `read`)
+2019-09-26 12:35:42,344 [DEBUG] from akka.stream.impl.io.InputStreamPublisher in play-dev-mode-akka.actor.default-dispatcher-10 - No more bytes available to read (got `-1` from `read`)
+2019-09-26 12:35:42,523 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-13 - New connection accepted
+2019-09-26 12:35:42,556 [DEBUG] from controllers.HomeController in play-dev-mode-akka.actor.default-dispatcher-4 - originCheck: originValue = http://localhost:9000
+2019-09-26 12:35:42,560 [INFO] from actors.UserParentActor in application-akka.actor.default-dispatcher-2 - Creating user actor userActor-7 with default stocks List(GOOG, AAPL, ORCL)
+2019-09-26 12:35:42,593 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(GOOG)
+2019-09-26 12:35:42,618 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-11 - Adding stock Stock(AAPL)
+2019-09-26 12:35:42,621 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-9 - Adding stock Stock(ORCL)
+2019-09-26 12:35:42,628 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:42,628 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:42,628 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:42,883 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:42,888 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:42,917 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:42,918 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:42,918 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:42,922 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:42,948 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:42,988 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:42,988 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:42,989 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:43,162 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:43,162 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:43,162 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:43,162 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:43,162 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:43,162 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:43,163 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:43,190 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:43,192 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:43,192 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:43,201 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:43,253 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:43,253 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:43,254 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:43,254 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:43,254 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:43,449 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:43,450 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:43,450 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:43,450 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:43,450 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:43,450 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:43,450 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:43,471 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:43,472 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:43,472 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:43,476 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:43,479 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:43,540 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:43,541 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:43,541 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:43,541 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:43,541 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:43,541 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:43,542 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:43,727 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:43,727 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:43,727 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:43,727 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:43,728 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:43,749 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:43,749 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:43,750 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:43,753 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:43,756 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:43,756 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:43,756 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:43,772 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:43,819 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:43,819 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:43,819 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:43,819 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:43,819 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:43,819 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:43,819 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:43,919 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:43,920 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:43,920 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:43,920 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:43,921 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:43,943 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:43,943 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:43,943 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:43,945 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:43,950 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:43,950 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:43,950 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:44,103 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:44,103 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:44,103 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:44,104 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:44,104 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:44,287 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:44,288 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:44,288 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:44,288 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:44,288 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:44,288 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:44,289 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:44,410 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:44,410 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:44,410 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:44,410 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:44,410 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:44,511 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:44,511 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:44,512 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:44,512 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:44,512 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.835, Prev close: 53.84
+2019-09-26 12:35:44,512 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:44,512 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:44,534 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:44,693 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:44,693 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:44,693 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:44,693 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:44,693 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:44,694 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:44,694 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:44,716 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:44,717 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:44,717 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.835, Prev close: 53.84
+2019-09-26 12:35:44,717 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:44,873 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:44,873 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:44,873 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:44,874 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:44,874 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:44,897 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:44,898 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.835, Prev close: 53.84
+2019-09-26 12:35:44,898 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:44,898 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:44,898 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:44,899 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:44,902 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:45,053 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:45,054 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:45,055 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:45,055 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:45,055 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:45,076 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:45,077 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.835, Prev close: 53.84
+2019-09-26 12:35:45,077 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:45,079 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:45,081 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:45,082 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:45,082 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:45,189 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:45,190 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:45,190 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:45,190 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:45,190 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:45,350 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:45,350 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:45,350 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:45,350 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.835, Prev close: 53.84
+2019-09-26 12:35:45,350 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:45,350 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:45,350 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:45,373 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:45,374 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:45,378 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:45,378 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:45,378 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:45,528 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:45,528 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.835, Prev close: 53.84
+2019-09-26 12:35:45,528 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:45,529 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:45,529 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:45,529 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:45,529 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:45,550 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:45,552 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:45,556 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:45,556 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:45,556 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:45,707 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:45,707 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:45,707 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:45,707 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:45,707 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.835, Prev close: 53.84
+2019-09-26 12:35:45,707 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:45,708 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:45,731 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:45,731 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:45,731 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:45,731 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:45,736 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:45,885 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:45,885 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.835, Prev close: 53.84
+2019-09-26 12:35:45,885 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:45,885 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:45,885 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:45,886 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:45,886 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:45,908 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:45,910 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:45,914 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:45,914 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:45,914 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,066 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:46,066 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1239.91, Prev close: 1246.52
+2019-09-26 12:35:46,067 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,067 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:46,067 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,067 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.835, Prev close: 53.84
+2019-09-26 12:35:46,067 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,249 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:46,249 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,249 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:46,249 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,401 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:46,401 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,401 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:46,401 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,401 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,426 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,588 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:46,588 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:46,589 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:46,589 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:46,589 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,589 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,605 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:46,606 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:46,606 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,613 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,616 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,627 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,636 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:46,637 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:46,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,646 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:46,646 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:46,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,651 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:46,651 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:46,651 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,661 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,673 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,674 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,687 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:46,687 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:46,687 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,696 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:46,696 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:46,696 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,702 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:46,702 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:46,703 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,712 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,719 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,731 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,737 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:46,737 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:46,737 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,748 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:46,749 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:46,749 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,761 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:46,761 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:46,761 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,761 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,772 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,790 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,795 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:46,795 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:46,796 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,817 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,819 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:46,819 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:46,819 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,842 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:46,843 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:46,843 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,854 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,854 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:46,854 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:46,854 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,871 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,893 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:46,893 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:46,893 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,898 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:46,899 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:46,899 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,916 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,924 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,929 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,938 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:46,938 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:46,938 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,948 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:46,949 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:46,949 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,956 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:46,956 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:46,956 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,961 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,973 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:46,983 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:46,983 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:46,983 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:46,983 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:46,997 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:46,997 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:46,997 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,006 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,006 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,006 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,021 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,027 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,045 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,045 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,045 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,050 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,050 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,050 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,060 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,069 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,072 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,088 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:47,088 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:47,088 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,106 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,106 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,106 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,107 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,107 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,107 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,380 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,382 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,382 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,402 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,402 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,402 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,406 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:47,407 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:47,407 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,410 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,410 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,410 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,423 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,430 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,440 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,446 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,446 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,447 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,454 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:47,454 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:47,455 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,468 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,468 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,468 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,468 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,478 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,491 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,496 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,497 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,497 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,502 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:47,502 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:47,502 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,514 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,514 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,514 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,527 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,527 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,537 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,550 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,551 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,551 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,555 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:47,555 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:47,555 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,559 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,559 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,559 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,574 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,581 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,581 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,600 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,600 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,600 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,603 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,603 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,603 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,609 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:47,609 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:47,610 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,624 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,624 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,646 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,646 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,648 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,648 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,649 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,664 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:47,665 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:47,665 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,668 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,672 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,690 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,690 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,690 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,694 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,694 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,694 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,694 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,714 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,718 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,722 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:47,722 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:47,722 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,737 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,737 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,737 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,745 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,745 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,745 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,751 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,759 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,769 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,779 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,779 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:47,779 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,780 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:47,780 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,780 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,792 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,792 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,792 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,801 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,806 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,816 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,823 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:47,823 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:47,823 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,833 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,833 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,833 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,840 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,840 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,840 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,846 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,862 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,867 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:47,867 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,867 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:47,867 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,906 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,906 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,906 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,907 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,907 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,907 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,907 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,928 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,930 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,934 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:47,934 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:47,934 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,951 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,951 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,951 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,953 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:47,954 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:47,954 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,962 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,973 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:47,977 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:47,989 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:47,990 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:47,990 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:47,995 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:47,995 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:47,996 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,000 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:48,000 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.83, Prev close: 53.84
+2019-09-26 12:35:48,000 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,068 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,068 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,070 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,138 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:48,138 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:48,138 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,144 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:48,144 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:48,144 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,147 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:48,147 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:48,148 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,160 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,171 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,175 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,182 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:48,182 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:48,182 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,196 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:48,196 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:48,197 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,203 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:48,203 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:48,203 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,204 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,220 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,225 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:48,226 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:48,226 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,244 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,246 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:48,246 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:48,246 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,482 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:48,482 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,482 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:48,483 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,503 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,529 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:48,530 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:48,530 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,559 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:48,560 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:48,560 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,562 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,571 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,586 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:48,587 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:48,587 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,587 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,593 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:48,593 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:48,593 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,610 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:48,611 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:48,611 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,614 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,636 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:48,636 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,636 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:48,636 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,658 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:48,658 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:48,658 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,662 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,662 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,680 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,686 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:48,687 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:48,687 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,689 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:48,690 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:48,690 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,701 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:48,701 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:48,701 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,710 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,718 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,724 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,735 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:48,735 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:48,736 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,745 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:48,745 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:48,745 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:48,745 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:48,745 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,745 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,759 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,767 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,772 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,782 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:48,782 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:48,782 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,788 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:48,788 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:48,788 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,799 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:48,799 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:48,799 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,807 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,810 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,827 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,830 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:48,830 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:48,830 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,834 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:48,835 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:48,835 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,856 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,856 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:48,856 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,856 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:48,856 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,877 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:48,877 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:48,878 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,879 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:48,879 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:48,883 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,886 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,901 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,906 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,913 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:48,914 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:48,914 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,924 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:48,924 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:48,924 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,931 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:48,931 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:48,931 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,942 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,945 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,955 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:48,970 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:48,970 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:48,970 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:48,970 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:48,970 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,971 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:48,978 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:48,978 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:48,991 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:48,998 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:49,012 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:49,013 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:49,013 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:49,024 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:49,024 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:49,025 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:49,035 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:49,052 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:49,058 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:49,058 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:49,058 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:49,080 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:49,081 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:49,082 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.06, Prev close: 221.03
+2019-09-26 12:35:49,102 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:49,102 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.19, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:52,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:52,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:52,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:52,720 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:52,729 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:52,792 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:52,792 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-11 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.47, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:35:52,808 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:52,808 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.03, Prev close: 221.03
+2019-09-26 12:35:52,860 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:52,942 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:52,942 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:57,638 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:57,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:57,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:57,719 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:35:57,722 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:35:57,790 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2019-09-26 12:35:57,790 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-3 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.825, Prev close: 53.84
+2019-09-26 12:35:57,795 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2019-09-26 12:35:57,795 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-11 - quote acquired for Apple Inc. Ask: 220.05, Bid: 220.06, Price: 220.02, Prev close: 221.03
+2019-09-26 12:35:57,853 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:35:57,925 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-8 - Updated Stock with symbol: GOOG
+2019-09-26 12:35:57,926 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-8 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.47, Price: 1240.11, Prev close: 1246.52
+2019-09-26 12:36:02,638 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:02,638 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:02,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:02,713 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:02,713 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:02,714 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:02,783 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2019-09-26 12:36:02,783 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-8 - Updated Stock with symbol: GOOG
+2019-09-26 12:36:02,783 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-3 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.81, Prev close: 53.84
+2019-09-26 12:36:02,783 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-8 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.47, Price: 1240.407, Prev close: 1246.52
+2019-09-26 12:36:02,785 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2019-09-26 12:36:02,786 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-10 - quote acquired for Apple Inc. Ask: 220.08, Bid: 220.06, Price: 220.02, Prev close: 221.03
+2019-09-26 12:36:07,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:07,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:07,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:07,722 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:07,798 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-8 - Updated Stock with symbol: GOOG
+2019-09-26 12:36:07,799 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-8 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.47, Price: 1240.407, Prev close: 1246.52
+2019-09-26 12:36:07,850 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:07,857 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:07,920 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2019-09-26 12:36:07,920 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.805, Prev close: 53.84
+2019-09-26 12:36:07,928 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2019-09-26 12:36:07,928 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-11 - quote acquired for Apple Inc. Ask: 220.08, Bid: 220.06, Price: 220.03, Prev close: 221.03
+2019-09-26 12:36:12,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:12,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:12,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:12,721 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:12,723 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:12,726 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:12,790 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2019-09-26 12:36:12,790 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-5 - quote acquired for Oracle Corporation Ask: 53.94, Bid: 53.93, Price: 53.805, Prev close: 53.84
+2019-09-26 12:36:12,797 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2019-09-26 12:36:12,797 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-2 - quote acquired for Alphabet Inc. Ask: 1240.98, Bid: 1240.47, Price: 1240.407, Prev close: 1246.52
+2019-09-26 12:36:12,803 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2019-09-26 12:36:12,803 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-10 - quote acquired for Apple Inc. Ask: 220.08, Bid: 220.06, Price: 220.03, Prev close: 221.03
+2019-09-26 12:36:17,636 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:17,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:17,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:17,714 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:17,715 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:17,719 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:17,782 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2019-09-26 12:36:17,782 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-10 - quote acquired for Oracle Corporation Ask: 53.93, Bid: 53.92, Price: 53.81, Prev close: 53.84
+2019-09-26 12:36:17,790 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2019-09-26 12:36:17,790 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-11 - quote acquired for Alphabet Inc. Ask: 1240.94, Bid: 1240.47, Price: 1240.6, Prev close: 1246.52
+2019-09-26 12:36:17,807 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2019-09-26 12:36:17,807 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Apple Inc. Ask: 220.08, Bid: 220.05, Price: 220.05, Prev close: 221.03
+2019-09-26 12:36:22,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:22,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:22,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:22,726 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:22,726 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:22,730 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:22,796 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2019-09-26 12:36:22,796 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-11 - quote acquired for Alphabet Inc. Ask: 1240.94, Bid: 1240.47, Price: 1240.6, Prev close: 1246.52
+2019-09-26 12:36:22,797 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2019-09-26 12:36:22,797 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Oracle Corporation Ask: 53.93, Bid: 53.92, Price: 53.81, Prev close: 53.84
+2019-09-26 12:36:22,806 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2019-09-26 12:36:22,807 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-3 - quote acquired for Apple Inc. Ask: 220.08, Bid: 220.05, Price: 220.0599, Prev close: 221.03
+2019-09-26 12:36:27,648 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:27,648 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:27,648 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:27,724 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:27,724 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:27,729 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:27,794 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2019-09-26 12:36:27,794 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-8 - Updated Stock with symbol: ORCL
+2019-09-26 12:36:27,794 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-5 - quote acquired for Apple Inc. Ask: 220.08, Bid: 220.05, Price: 220.05, Prev close: 221.03
+2019-09-26 12:36:27,794 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-8 - quote acquired for Oracle Corporation Ask: 53.93, Bid: 53.92, Price: 53.81, Prev close: 53.84
+2019-09-26 12:36:27,801 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2019-09-26 12:36:27,801 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-3 - quote acquired for Alphabet Inc. Ask: 1240.94, Bid: 1240.47, Price: 1240.6, Prev close: 1246.52
+2019-09-26 12:36:32,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:32,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:32,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:32,711 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:32,715 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:32,715 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:32,783 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2019-09-26 12:36:32,783 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Apple Inc. Ask: 220.08, Bid: 220.05, Price: 220.055, Prev close: 221.03
+2019-09-26 12:36:32,788 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2019-09-26 12:36:32,788 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Oracle Corporation Ask: 53.93, Bid: 53.92, Price: 53.825, Prev close: 53.84
+2019-09-26 12:36:32,793 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-7 - Updated Stock with symbol: GOOG
+2019-09-26 12:36:32,793 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-7 - quote acquired for Alphabet Inc. Ask: 1240.94, Bid: 1240.47, Price: 1240.6, Prev close: 1246.52
+2019-09-26 12:36:37,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:37,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:37,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:37,713 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:37,715 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:37,719 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:37,783 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2019-09-26 12:36:37,783 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-9 - quote acquired for Apple Inc. Ask: 220.08, Bid: 220.05, Price: 220.055, Prev close: 221.03
+2019-09-26 12:36:37,786 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2019-09-26 12:36:37,786 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-5 - quote acquired for Oracle Corporation Ask: 53.93, Bid: 53.92, Price: 53.8241, Prev close: 53.84
+2019-09-26 12:36:37,970 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2019-09-26 12:36:37,970 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Alphabet Inc. Ask: 1240.94, Bid: 1240.47, Price: 1240.47, Prev close: 1246.52
+2019-09-26 12:36:42,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:42,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:42,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:42,717 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:42,717 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:42,719 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:42,790 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2019-09-26 12:36:42,791 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Oracle Corporation Ask: 53.93, Bid: 53.92, Price: 53.815, Prev close: 53.84
+2019-09-26 12:36:42,793 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2019-09-26 12:36:42,793 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-9 - quote acquired for Apple Inc. Ask: 220.08, Bid: 220.05, Price: 220.06, Prev close: 221.03
+2019-09-26 12:36:42,797 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2019-09-26 12:36:42,797 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-3 - quote acquired for Alphabet Inc. Ask: 1240.94, Bid: 1240.01, Price: 1240.47, Prev close: 1246.52
+2019-09-26 12:36:47,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:47,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:47,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:47,787 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:47,787 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:47,970 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:47,970 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2019-09-26 12:36:47,970 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2019-09-26 12:36:47,970 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-11 - quote acquired for Apple Inc. Ask: 220.0, Bid: 220.05, Price: 220.0617, Prev close: 221.03
+2019-09-26 12:36:47,970 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-9 - quote acquired for Alphabet Inc. Ask: 1240.94, Bid: 1240.01, Price: 1240.47, Prev close: 1246.52
+2019-09-26 12:36:48,158 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2019-09-26 12:36:48,158 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-5 - quote acquired for Oracle Corporation Ask: 53.93, Bid: 53.92, Price: 53.815, Prev close: 53.84
+2019-09-26 12:36:52,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:52,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:52,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:52,721 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:52,727 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:52,732 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:52,796 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2019-09-26 12:36:52,796 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-3 - quote acquired for Oracle Corporation Ask: 53.93, Bid: 53.92, Price: 53.815, Prev close: 53.84
+2019-09-26 12:36:52,801 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-8 - Updated Stock with symbol: GOOG
+2019-09-26 12:36:52,802 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-8 - quote acquired for Alphabet Inc. Ask: 1240.94, Bid: 1240.01, Price: 1240.28, Prev close: 1246.52
+2019-09-26 12:36:52,810 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2019-09-26 12:36:52,810 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-11 - quote acquired for Apple Inc. Ask: 220.0, Bid: 220.05, Price: 220.045, Prev close: 221.03
+2019-09-26 12:36:57,432 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-14 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52853 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2019-09-26 12:36:57,648 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:57,648 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:57,648 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:57,726 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:36:57,729 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:36:57,800 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-7 - Updated Stock with symbol: GOOG
+2019-09-26 12:36:57,800 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-7 - quote acquired for Alphabet Inc. Ask: 1240.94, Bid: 1240.01, Price: 1240.28, Prev close: 1246.52
+2019-09-26 12:36:57,804 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2019-09-26 12:36:57,804 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Oracle Corporation Ask: 53.93, Bid: 53.92, Price: 53.815, Prev close: 53.84
+2019-09-26 12:36:57,865 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:36:57,937 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2019-09-26 12:36:57,937 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-3 - quote acquired for Apple Inc. Ask: 220.0, Bid: 220.05, Price: 220.04, Prev close: 221.03
+2019-09-26 12:36:58,098 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-13 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52862 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2019-09-26 12:36:58,109 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-3 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52863 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2019-09-26 12:36:58,118 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-14 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52865 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2019-09-26 12:36:58,119 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-14 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52864 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2019-09-26 12:37:02,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:02,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:02,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:02,712 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:02,717 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:02,783 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2019-09-26 12:37:02,783 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Oracle Corporation Ask: 53.93, Bid: 53.92, Price: 53.815, Prev close: 53.84
+2019-09-26 12:37:02,787 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-7 - Updated Stock with symbol: GOOG
+2019-09-26 12:37:02,787 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-7 - quote acquired for Alphabet Inc. Ask: 1240.94, Bid: 1240.01, Price: 1240.39, Prev close: 1246.52
+2019-09-26 12:37:02,858 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:02,933 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2019-09-26 12:37:02,933 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-5 - quote acquired for Apple Inc. Ask: 220.0, Bid: 219.98, Price: 220.045, Prev close: 221.03
+2019-09-26 12:37:07,638 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:07,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:07,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:07,717 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:07,717 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:07,720 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:07,789 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2019-09-26 12:37:07,789 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Alphabet Inc. Ask: 1240.57, Bid: 1240.01, Price: 1240.39, Prev close: 1246.52
+2019-09-26 12:37:07,794 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2019-09-26 12:37:07,794 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Oracle Corporation Ask: 53.91, Bid: 53.9, Price: 53.815, Prev close: 53.84
+2019-09-26 12:37:07,798 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2019-09-26 12:37:07,798 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-11 - quote acquired for Apple Inc. Ask: 220.0, Bid: 219.98, Price: 220.05, Prev close: 221.03
+2019-09-26 12:37:12,638 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:12,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:12,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:12,716 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:12,718 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:12,722 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:12,788 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:37:12,788 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 220.0, Bid: 219.98, Price: 220.08, Prev close: 221.03
+2019-09-26 12:37:12,791 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2019-09-26 12:37:12,791 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-3 - quote acquired for Alphabet Inc. Ask: 1240.57, Bid: 1240.01, Price: 1240.54, Prev close: 1246.52
+2019-09-26 12:37:12,798 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-7 - Updated Stock with symbol: ORCL
+2019-09-26 12:37:12,798 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-7 - quote acquired for Oracle Corporation Ask: 53.91, Bid: 53.9, Price: 53.82, Prev close: 53.84
+2019-09-26 12:37:17,647 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:17,647 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:17,647 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:17,722 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-7 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:17,724 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:17,730 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:17,797 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-7 - Updated Stock with symbol: GOOG
+2019-09-26 12:37:17,797 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-8 - Updated Stock with symbol: ORCL
+2019-09-26 12:37:17,797 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-8 - quote acquired for Oracle Corporation Ask: 53.91, Bid: 53.9, Price: 53.823, Prev close: 53.84
+2019-09-26 12:37:17,797 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-7 - quote acquired for Alphabet Inc. Ask: 1240.57, Bid: 1240.01, Price: 1240.54, Prev close: 1246.52
+2019-09-26 12:37:17,808 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2019-09-26 12:37:17,808 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-3 - quote acquired for Apple Inc. Ask: 220.0, Bid: 219.98, Price: 220.08, Prev close: 221.03
+2019-09-26 12:37:22,647 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:22,647 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:22,647 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:22,726 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:22,726 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-8 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:22,731 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:22,799 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2019-09-26 12:37:22,799 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-8 - Updated Stock with symbol: ORCL
+2019-09-26 12:37:22,799 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Apple Inc. Ask: 220.0, Bid: 219.98, Price: 220.07, Prev close: 221.03
+2019-09-26 12:37:22,799 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-8 - quote acquired for Oracle Corporation Ask: 53.91, Bid: 53.9, Price: 53.823, Prev close: 53.84
+2019-09-26 12:37:22,807 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2019-09-26 12:37:22,807 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-11 - quote acquired for Alphabet Inc. Ask: 1240.57, Bid: 1240.01, Price: 1240.54, Prev close: 1246.52
+2019-09-26 12:37:27,647 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:27,647 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:27,647 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:27,718 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:27,718 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:27,729 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:27,789 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2019-09-26 12:37:27,789 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2019-09-26 12:37:27,789 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-5 - quote acquired for Apple Inc. Ask: 220.0, Bid: 219.98, Price: 220.07, Prev close: 221.03
+2019-09-26 12:37:27,789 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-4 - quote acquired for Oracle Corporation Ask: 53.91, Bid: 53.9, Price: 53.825, Prev close: 53.84
+2019-09-26 12:37:27,813 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2019-09-26 12:37:27,813 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Alphabet Inc. Ask: 1240.57, Bid: 1239.72, Price: 1240.54, Prev close: 1246.52
+2019-09-26 12:37:32,638 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:32,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:32,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:32,716 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2019-09-26 12:37:32,716 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2019-09-26 12:37:32,718 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2019-09-26 12:37:32,788 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2019-09-26 12:37:32,788 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-5 - quote acquired for Alphabet Inc. Ask: 1240.57, Bid: 1239.72, Price: 1240.4368, Prev close: 1246.52
+2019-09-26 12:37:32,790 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2019-09-26 12:37:32,790 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-3 - quote acquired for Oracle Corporation Ask: 53.91, Bid: 53.9, Price: 53.825, Prev close: 53.84
+2019-09-26 12:37:32,792 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2019-09-26 12:37:32,792 [INFO] from stocks.FakeStockQuoteGenerator in application-akka.actor.default-dispatcher-6 - quote acquired for Apple Inc. Ask: 219.93, Bid: 219.98, Price: 220.07, Prev close: 221.03
+2019-09-26 12:37:35,394 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Starting coordinated shutdown from JVM shutdown hook
+2019-09-26 12:37:35,397 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Performing phase [before-service-unbind] with [1] tasks: [trace-server-stop-request]
+2019-09-26 12:37:35,398 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-shutdown-hook-1 - Stopping server...
+2019-09-26 12:37:35,407 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-13 - Performing phase [service-unbind] with [1] tasks: [akka-http-server-unbind]
+2019-09-26 12:37:35,408 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-3 - Unbinding endpoint /0:0:0:0:0:0:0:0:9000
+2019-09-26 12:37:35,410 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-3 - Unbound endpoint /0:0:0:0:0:0:0:0:9000, stopping listener
+2019-09-26 12:37:35,411 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-9 - Performing phase [service-requests-done] with [0] tasks
+2019-09-26 12:37:35,412 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-9 - Performing phase [service-stop] with [1] tasks: [shutdown-application-dev-mode]
+2019-09-26 12:37:35,413 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-6 - Performing phase [before-service-unbind] with [0] tasks
+2019-09-26 12:37:35,414 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-6 - Performing phase [service-unbind] with [0] tasks
+2019-09-26 12:37:35,414 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-6 - Performing phase [service-requests-done] with [0] tasks
+2019-09-26 12:37:35,414 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-6 - Performing phase [service-stop] with [1] tasks: [application-lifecycle-stophook]
+2019-09-26 12:37:35,441 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-6 - Performing phase [before-cluster-shutdown] with [0] tasks
+2019-09-26 12:37:35,441 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-6 - Performing phase [cluster-sharding-shutdown-region] with [0] tasks
+2019-09-26 12:37:35,441 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-6 - Performing phase [cluster-leave] with [0] tasks
+2019-09-26 12:37:35,441 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-6 - Performing phase [cluster-exiting] with [0] tasks
+2019-09-26 12:37:35,441 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-6 - Performing phase [cluster-exiting-done] with [0] tasks
+2019-09-26 12:37:35,442 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-6 - Performing phase [cluster-shutdown] with [0] tasks
+2019-09-26 12:37:35,442 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-6 - Performing phase [before-actor-system-terminate] with [1] tasks: [force-reload]
+2019-09-26 12:37:35,442 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-6 - Performing phase [actor-system-terminate] with [1] tasks: [terminate-system]
+2019-09-26 12:37:35,446 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-7 - Stopping actor Actor[akka://application/user/userParentActor/userActor-7#1552123553]
+2019-09-26 12:37:35,452 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-5 - shutting down: StandardOutLogger
+2019-09-26 12:37:35,474 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-3 - Performing phase [before-cluster-shutdown] with [0] tasks
+2019-09-26 12:37:35,474 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-3 - Performing phase [cluster-sharding-shutdown-region] with [0] tasks
+2019-09-26 12:37:35,475 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-3 - Performing phase [cluster-leave] with [0] tasks
+2019-09-26 12:37:35,475 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-3 - Performing phase [cluster-exiting] with [0] tasks
+2019-09-26 12:37:35,475 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-3 - Performing phase [cluster-exiting-done] with [0] tasks
+2019-09-26 12:37:35,475 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-3 - Performing phase [cluster-shutdown] with [0] tasks
+2019-09-26 12:37:35,475 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-3 - Performing phase [before-actor-system-terminate] with [2] tasks: [user-provided-server-stop-hook, shutdown-logger]

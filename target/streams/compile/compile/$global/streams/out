@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/ryanraitz/Desktop/play-samples-play-scala-websocket-example-copy-2/app/stocks/Stock.scala:40:57: too many arguments (3) for constructor StockUpdate: (symbol: stocks.StockSymbol, price: stocks.StockPrice)stocks.StockUpdate[0m
+[0m[[0m[31merror[0m] [0m[0m      .map(sq => new StockUpdate(sq.symbol, sq.name, sq.price))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ryanraitz/Desktop/play-samples-play-scala-websocket-example-copy-2/app/stocks/Stock.scala:155:24: value name is not a member of stocks.StockUpdate[0m
+[0m[[0m[31merror[0m] [0m[0m      "name" -> update.name,[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
